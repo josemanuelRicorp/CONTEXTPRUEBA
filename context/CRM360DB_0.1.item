@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_H6mIEK7TEe2bE_RnkIHEAQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_H6mIEa7TEe2bE_RnkIHEAQ" comment="" name="CRM360_Database" prompt="CRM360_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Northwind"/>
+    <contextParameter xmi:id="_H6mIEq7TEe2bE_RnkIHEAQ" comment="" name="CRM360_AdditionalParams" prompt="CRM360_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="trustServerCertificate=true;encrypt=false"/>
+    <contextParameter xmi:id="_H6mIE67TEe2bE_RnkIHEAQ" comment="" name="CRM360_Port" prompt="CRM360_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433"/>
+    <contextParameter xmi:id="_H6mIFK7TEe2bE_RnkIHEAQ" comment="" name="CRM360_Login" prompt="CRM360_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talenduser"/>
+    <contextParameter xmi:id="_H6mIFa7TEe2bE_RnkIHEAQ" comment="" name="CRM360_Schema" prompt="CRM360_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo"/>
+    <contextParameter xmi:id="_H6mIFq7TEe2bE_RnkIHEAQ" comment="" name="CRM360_Password" prompt="CRM360_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:3FepM40QSnU34Kp5hFiXNCn1voVS7OhR/l1kpxYUYLlW9nK7a5yueXE="/>
+    <contextParameter xmi:id="_H6mIF67TEe2bE_RnkIHEAQ" comment="" name="CRM360_Server" prompt="CRM360_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="LAPTOP-CMEFJE6G"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_kE4NsK7tEe2bE_RnkIHEAQ" confirmationNeeded="false" name="produccion">
+    <contextParameter xmi:id="_kE4Nsa7tEe2bE_RnkIHEAQ" comment="" name="CRM360_Database" prompt="CRM360_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Northwind"/>
+    <contextParameter xmi:id="_kE4Nsq7tEe2bE_RnkIHEAQ" comment="" name="CRM360_AdditionalParams" prompt="CRM360_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="trustServerCertificate=true;encrypt=false"/>
+    <contextParameter xmi:id="_kE4Ns67tEe2bE_RnkIHEAQ" comment="" name="CRM360_Port" prompt="CRM360_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433"/>
+    <contextParameter xmi:id="_kE4NtK7tEe2bE_RnkIHEAQ" comment="" name="CRM360_Login" prompt="CRM360_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talenduser"/>
+    <contextParameter xmi:id="_kE4Nta7tEe2bE_RnkIHEAQ" comment="" name="CRM360_Schema" prompt="CRM360_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo"/>
+    <contextParameter xmi:id="_kE4Ntq7tEe2bE_RnkIHEAQ" comment="" name="CRM360_Password" prompt="CRM360_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:m3vMyYjur/DOsPLhodXFgh3bZJNi2lQdnLY+6+OAG71C6Vp5WJk9x2A="/>
+    <contextParameter xmi:id="_kE4Nt67tEe2bE_RnkIHEAQ" comment="" name="CRM360_Server" prompt="CRM360_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="192.168.1.220"/>
+  </talendfile:ContextType>
+</xmi:XMI>
