@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="CRM360_Database" prompt="CRM360_Database?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="Northwind" internalId="_KipS8K7UEe2bE_RnkIHEAQ"/>
-    <contextParameter comment="" name="CRM360_AdditionalParams" prompt="CRM360_AdditionalParams?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="trustServerCertificate=true;encrypt=false" internalId="_KipS8a7UEe2bE_RnkIHEAQ"/>
-    <contextParameter comment="" name="CRM360_Port" prompt="CRM360_Port?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="1433" internalId="_KipS8q7UEe2bE_RnkIHEAQ"/>
-    <contextParameter comment="" name="CRM360_Login" prompt="CRM360_Login?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="talenduser" internalId="_KipS867UEe2bE_RnkIHEAQ"/>
-    <contextParameter comment="" name="CRM360_Schema" prompt="CRM360_Schema?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="dbo" internalId="_KipS9K7UEe2bE_RnkIHEAQ"/>
-    <contextParameter comment="" name="CRM360_Password" prompt="CRM360_Password?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_Password" value="enc:system.encryption.key.v1:T8uLasZRAbUfYUVKvmzsxajH7A3nVwqKC0xfiuJRJgeaQZ7wuWDV/cw=" internalId="_KipS9a7UEe2bE_RnkIHEAQ"/>
-    <contextParameter comment="" name="CRM360_Server" prompt="CRM360_Server?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="LAPTOP-CMEFJE6G" internalId="_KipS9q7UEe2bE_RnkIHEAQ"/>
+    <contextParameter comment="" name="CRM360_Database" prompt="CRM360_Database?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="Northwind" internalId="_RhaGoLLLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_AdditionalParams" prompt="CRM360_AdditionalParams?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="trustServerCertificate=true;encrypt=false" internalId="_RhaGobLLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_Port" prompt="CRM360_Port?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="1433" internalId="_RhaGorLLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_Login" prompt="CRM360_Login?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="talenduser" internalId="_RhaGo7LLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_Schema" prompt="CRM360_Schema?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="dbo" internalId="_RhaGpLLLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_Password" prompt="CRM360_Password?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_Password" value="enc:system.encryption.key.v1:Y+EEDI6WfWPKCls+9FuSIe+RSU9k4u9ZyINXWmhdH8Yzt4cAA8NNW2A=" internalId="_RhaGpbLLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_Server" prompt="CRM360_Server?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="LAPTOP-CMEFJE6G" internalId="_RhaGprLLEe2to5vy75WW3g"/>
+  </context>
+  <context confirmationNeeded="false" name="produccion">
+    <contextParameter comment="" name="CRM360_Database" prompt="CRM360_Database?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="Northwind" internalId="_RhaGp7LLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_AdditionalParams" prompt="CRM360_AdditionalParams?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="trustServerCertificate=true;encrypt=false" internalId="_RhaGqLLLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_Port" prompt="CRM360_Port?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="1433" internalId="_RhaGqbLLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_Login" prompt="CRM360_Login?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="talenduser" internalId="_RhaGqrLLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_Schema" prompt="CRM360_Schema?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="dbo" internalId="_RhaGq7LLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_Password" prompt="CRM360_Password?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_Password" value="enc:system.encryption.key.v1:byzh+BQ8iw1YaMgvkpqGCZkRc/t8f6wU0O5+13jSpZyVMuS8Zg36i6A=" internalId="_RhaGrLLLEe2to5vy75WW3g"/>
+    <contextParameter comment="" name="CRM360_Server" prompt="CRM360_Server?" promptNeeded="false" repositoryContextId="_H5Co4K7TEe2bE_RnkIHEAQ" type="id_String" value="192.168.1.220" internalId="_RhaGrbLLEe2to5vy75WW3g"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -51,7 +60,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:B4iadY4CcVtc44vPMKnq3DhVcTYm/0c+wW+yQTdE" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:g1hT6YFpAMIH3HKf3zGyhJfzh6jCgBnMrWgU6fmZ" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -86,7 +95,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:p1KjTC4jNpmALGQ4cayPWK5mlYJ76TcE0VxVNq4f" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ejcGt6KVKwwnMTOazPyOOx7sceQ1dT8/aTCD0Tti" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -112,10 +121,10 @@
     <routinesParameter id="_Ny_qYK7JEe2bE_RnkIHEAQ" name="StringHandling"/>
     <routinesParameter id="_NzNFwK7JEe2bE_RnkIHEAQ" name="TalendDataGenerator"/>
     <routinesParameter id="_Nzq_0K7JEe2bE_RnkIHEAQ" name="TalendDate"/>
-    <routinesParameter id="_N0F2kK7JEe2bE_RnkIHEAQ" name="TalendString"/>
     <routinesParameter id="_N0k-wK7JEe2bE_RnkIHEAQ" name="TalendStringUtil"/>
+    <routinesParameter id="_N0F2kK7JEe2bE_RnkIHEAQ" name="TalendString"/>
   </parameters>
-  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="224">
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
@@ -128,15 +137,15 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="context.CRM360_Schema"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.CRM360_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.CRM360_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:cweS2s3q1XhrYH5zNnwYZot1QTXPEmr8PvMx9kWp+vjxLxDwW/qKUbNZkqlxEEDFjagS"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:d88kdZcNV5pQLqIWSx6kcu8vwZIlCgQlSj6tiDzkCfHPCGpC/QvECP1e27gR76eG/ks+"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_d6wegK7REe2bE_RnkIHEAQ - Employees" show="false"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Employees&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_d6wegK7REe2bE_RnkIHEAQ - Customers" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Customers&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.EmployeeId,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.LastName,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.FirstName,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.Title,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.TitleOfCourtesy,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.BirthDate,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.HireDate,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.Address,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.City,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.Region,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.PostalCode,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.Country,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.HomePhone,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.Extension,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.Photo,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.Notes,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.ReportsTo,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees.PhotoPath&quot;&#xA;+&quot;&#xA;FROM&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Employees&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers.CustomerId,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers.CompanyName,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers.ContactName,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers.ContactTitle,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers.Address,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers.City,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers.Region,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers.PostalCode,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers.Country,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers.Phone,&#xA;&#x9;&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers.Fax&quot;&#xA;+&quot;&#xA;FROM&#x9;\&quot;&quot;+context.CRM360_Schema+&quot;\&quot;.Customers&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -147,19 +156,13 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="EmployeeId"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerId"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LastName"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CompanyName"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FirstName"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ContactName"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Title"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TitleOfCourtesy"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BirthDate"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="HireDate"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ContactTitle"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Address"/>
       <elementValue elementRef="TRIM" value="false"/>
@@ -171,41 +174,24 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Country"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="HomePhone"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Phone"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Extension"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Photo"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Notes"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ReportsTo"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PhotoPath"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Fax"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="Employees" name="tDBInput_1">
-      <column comment="" key="true" length="10" name="EmployeeId" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" usefulColumn="true">
+    <metadata connector="FLOW" label="Customers" name="tDBInput_1">
+      <column comment="" key="true" length="5" name="CustomerId" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="LastName" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="CompanyName" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="FirstName" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="30" name="ContactName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="30" name="Title" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="25" name="TitleOfCourtesy" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="BirthDate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="HireDate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="30" name="ContactTitle" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="60" name="Address" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
@@ -223,27 +209,15 @@
       <column comment="" key="false" length="15" name="Country" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="24" name="HomePhone" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="24" name="Phone" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="4" name="Extension" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2147483647" name="Photo" nullable="true" pattern="" precision="0" sourceType="IMAGE" type="id_Object" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1073741823" name="Notes" nullable="true" pattern="" precision="0" sourceType="NTEXT" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ReportsTo" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="255" name="PhotoPath" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="24" name="Fax" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="224">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
@@ -257,19 +231,13 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="EmployeeId"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerId"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LastName"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CompanyName"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FirstName"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ContactName"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Title"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TitleOfCourtesy"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BirthDate"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="HireDate"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ContactTitle"/>
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Address"/>
       <elementValue elementRef="LENGTH" value="10"/>
@@ -281,42 +249,25 @@
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Country"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="HomePhone"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Phone"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Extension"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Photo"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Notes"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ReportsTo"/>
-      <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PhotoPath"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Fax"/>
       <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="Employees" name="tLogRow_1">
-      <column comment="" key="true" length="10" name="EmployeeId" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" usefulColumn="true">
+    <metadata connector="FLOW" label="Customers" name="tLogRow_1">
+      <column comment="" key="true" length="5" name="CustomerId" nullable="false" pattern="" precision="0" sourceType="NCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="LastName" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="CompanyName" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="FirstName" nullable="false" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="30" name="ContactName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="30" name="Title" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="25" name="TitleOfCourtesy" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="BirthDate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="23" name="HireDate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="30" name="ContactTitle" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="60" name="Address" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
@@ -334,22 +285,10 @@
       <column comment="" key="false" length="15" name="Country" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="24" name="HomePhone" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="24" name="Phone" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="4" name="Extension" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2147483647" name="Photo" nullable="true" pattern="" precision="0" sourceType="IMAGE" type="id_Object" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1073741823" name="Notes" nullable="true" pattern="" precision="0" sourceType="NTEXT" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ReportsTo" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="255" name="PhotoPath" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="24" name="Fax" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
